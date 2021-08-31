@@ -1,7 +1,4 @@
 ﻿using System;
-
-
-
 namespace Operator
 {
     class Program
@@ -182,7 +179,7 @@ class unary
         result = x--;
         Console.WriteLine("Post decrement of x is " + x);
 
-        Console.WriteLine("x is " + x);
+        //Console.WriteLine("x is " + x);
         result = ++x;
         Console.WriteLine("Pre increment of x is " + x);
 
