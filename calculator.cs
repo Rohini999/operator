@@ -11,8 +11,7 @@ namespace ProgramFile
             float c;
             int choice;
 
-            Console.WriteLine(" CALCULATOR  ");
-            Console.WriteLine("CALCULATION ");
+ //            Console.WriteLine("CALCULATION ");
             Console.WriteLine("1. Addition (+)");
             Console.WriteLine("2. Substraction (-)");
             Console.WriteLine("3. Multiplication (*)");
