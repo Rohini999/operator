@@ -8,7 +8,7 @@ namespace ProgramFile
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            double Bio, phy, che, Eng, m1;
+            double Bio, phy, che, Eng, math;
 
             string nm;
             string[] studentId = { "STU01", "STU02", "STU03", "STU04", "STU05" };
@@ -26,12 +26,12 @@ namespace ProgramFile
             phy = Convert.ToInt32(Console.ReadLine());
             Console.Write("Input  the marks of  Chemistry : ");
             che = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Input  the marks of Computer Application : ");
-            ca = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Input  the marks of m1 : ");
-            phy = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Input  the marks of  m2 : ");
-            che = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Input  the marks of English: ");
+            Eng= Convert.ToInt32(Console.ReadLine());
+            Console.Write("Input  the marks of Bio : ");
+            Bio = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Input  the marks of  math  : ");
+            math = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Finds the grade for each student");
             for (int i = 0; i < studentId.Length; i++)

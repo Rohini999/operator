@@ -1,8 +1,7 @@
 ﻿using System;
-
 namespace ProgramFile
-{
-    class 2ndMaxNum
+{ 
+    class ndMaxNum
     {
         static void Main(string[] args)
         {
@@ -16,7 +15,7 @@ namespace ProgramFile
             {
                 Console.Write(result + " ");
             }
-        }
+        Console.ReadKey();
+         }
     }
-
 }

@@ -21,8 +21,8 @@ namespace ProgramFile
             Name = "Pink"
         }
    };
-            Array.Sort(Colors);
-            Array.ForEach(Colors, x => Console.WriteLine(x.Name));
+            Array.Sort(Color);
+            Array.ForEach(Color, x => Console.WriteLine(x.Name));
         }
 
 
