@@ -20,13 +20,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stucture_prog", "..\stuctur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dispose", "..\Dispose\Dispose.csproj", "{60E14EE0-7505-4E8F-A34F-C88B3C484F78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading_Ex", "..\Multithreading_Ex\Multithreading_Ex.csproj", "{A62D67EE-D87D-497B-A119-A23219373C97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multithreading_Ex", "..\Multithreading_Ex\Multithreading_Ex.csproj", "{A62D67EE-D87D-497B-A119-A23219373C97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumeration_Ex", "..\Enumeration_Ex\Enumeration_Ex.csproj", "{32FB8BBE-6140-4477-B367-3F76D34156F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enumeration_Ex", "..\Enumeration_Ex\Enumeration_Ex.csproj", "{32FB8BBE-6140-4477-B367-3F76D34156F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexer_Ex", "..\Indexer_Ex\Indexer_Ex.csproj", "{F1372A70-74DE-4160-849A-61258DBDF69E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexer_Ex", "..\Indexer_Ex\Indexer_Ex.csproj", "{F1372A70-74DE-4160-849A-61258DBDF69E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finalize_Ex", "..\Finalize_Ex\Finalize_Ex.csproj", "{033B1D42-4678-4BC8-8B98-1B3F71A9F5D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Finalize_Ex", "..\Finalize_Ex\Finalize_Ex.csproj", "{033B1D42-4678-4BC8-8B98-1B3F71A9F5D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp4", "..\ConsoleApp4\ConsoleApp4.csproj", "{DE80D7BB-44E7-42E7-88C4-D579C1A31824}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +76,10 @@ Global
 		{033B1D42-4678-4BC8-8B98-1B3F71A9F5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{033B1D42-4678-4BC8-8B98-1B3F71A9F5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{033B1D42-4678-4BC8-8B98-1B3F71A9F5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE80D7BB-44E7-42E7-88C4-D579C1A31824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE80D7BB-44E7-42E7-88C4-D579C1A31824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE80D7BB-44E7-42E7-88C4-D579C1A31824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE80D7BB-44E7-42E7-88C4-D579C1A31824}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
