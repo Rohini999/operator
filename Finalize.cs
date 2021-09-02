@@ -4,7 +4,8 @@ namespace ProgramFile
 {
     public class ExampleClass
     {
-        Stopwatch sw; public ExampleClass()
+        Stopwatch sw;
+        public ExampleClass()
         {
             sw = Stopwatch.StartNew();
             Console.WriteLine("Instantiated object");
